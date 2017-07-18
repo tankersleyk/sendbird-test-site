@@ -20,3 +20,7 @@ body {
   padding: 300% 0 0 0;
   text-align: center;
 }
+
+#sb_chat {
+  float: left;
+}
