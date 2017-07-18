@@ -1,0 +1,22 @@
+body {
+  background: url(crossword.png);
+}
+
+#title {
+  text-align: center;
+}
+
+.info-text {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#info {
+    position: absolute;
+}
+
+#secret {
+  font-size: 2px;
+  padding: 300% 0 0 0;
+  text-align: center;
+}
