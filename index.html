@@ -11,13 +11,21 @@
     <p class = 'info'>
     This is a test website to see how well the Sendbird chat client works. This test will hopefully help decide whether or not we wish to use this chat client in the Public Library Innovation Exchange website!
     </p>
-    <div id = "sb_widget"></div>
+  </div>
+  <div id = "sb_widget"></div>
     <script src="lib/SendBird.min.js"></script>
     <script src="lib/widget.SendBird.js"></script>
     <script>
       sbWidget.start('01F94790-47F1-4D8E-845C-FA3D905DFC19');
     </script>
-  </div>
+  <div id = "sb_chat"></div>
+  <script src = "lib/SendBird.min.js"></script>
+    <script src = "lib/liveChat.SendBird.js"></script>
+    <script>
+    var appID = '01F94790-47F1-4D8E-845C-FA3D905DFC19';
+    var channelURL = 'ml_testing';
+    liveChat.start(appID, channelURL);
+    </script>
   <p id = "secret">
   Just for scroll :)
   </p>
