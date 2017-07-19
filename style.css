@@ -1,5 +1,10 @@
+html {
+  height: 100%;
+}
+
 body {
   background: url(crossword.png);
+  height: 100%;
 }
 
 #title {
@@ -7,12 +12,15 @@ body {
 }
 
 .info-text {
+  display: inline-block;
   text-align: center;
   padding-top: 100px;
+  width: 65%;
 }
 
-#info {
-    position: absolute;
+#logo {
+  width: 10%;
+  height: 10%;
 }
 
 #secret {
@@ -22,5 +30,13 @@ body {
 }
 
 #sb_chat {
-  float: left;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 30%;
+  height: 100%;
+}
+
+#sb_widget {
+  right: 30% !important;
 }
